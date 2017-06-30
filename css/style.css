@@ -1,13 +1,22 @@
+body {
+	text-align: center;
+}
+
 .jumbotron {
 	background-image: url(../images/leftovers-banner.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 }
 
-.jumbotron > h1 {
+.jumbotron h1 {
 	color: white;
 }
 
-.jumbotron > p {
+.jumbotron p {
 	color: white;
+}
+
+.pic-gallery {
+	height: 12rem;
+	border-radius: 100px;
 }
